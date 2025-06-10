@@ -1,0 +1,22 @@
+{
+  "title": "Medium Scraper",
+  "type": "object",
+  "properties": {
+    "proxyConfiguration": {
+      "title": "Proxy configuration",
+      "type": "object",
+      "default": {
+        "useApifyProxy": true
+      }
+    },
+    "searchQuery": {
+      "title": "Search query",
+      "type": "string"
+    },
+    "maxArticles": {
+      "title": "Max articles",
+      "type": "integer",
+      "default": 50
+    }
+  }
+}
